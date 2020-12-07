@@ -26,15 +26,33 @@ public:
             aux->setNext(new Node<T>(data));
         }
     }
+
     bool isEmpty(){
         return (head == NULL);
+    }
+
+    T poll(){
+        if (head != NULL){
+            T auxData = head->getData();
+            head = head->getNext();
+            return auxData;
+        }
+        return NULL;
+    }
+
+    T peek(){
+        if (head != NULL){
+            return head->getData();
+        }
+        return NULL;
     }
 
     string show(){
         string data = "->";
         Node<T> *aux = head;
         while (aux != NULL){
-            data += to_string(aux->getData()) +"->";
+//          data += to_string(aux->getData()) +"->";
+            data += aux->getData() +"->";
             aux = aux->getNext();
         }
         return data;
