@@ -1,14 +1,15 @@
 #include <iostream>
-#include "Node.cpp"
-#include<conio.h>
-#include<cstdlib>
+#include "Queue.cpp"
 using namespace std;
 
 int main() {
-    Node<string> *node = new Node<string>("A");
+    Node<int> *node = new Node<int>(1);
     cout<<node->getData()<<endl;
-    Node<string> *node1 = new Node<string>("B");
+    Node<int> *node1 = new Node<int>(2);
     node->setNext(node1);
     cout<<node1->getData()<<endl;
+    Queue<int> *queue = new Queue<int>();
+    cout<<queue->isEmpty()<<endl;
+    queue->push(7);
     return 0;
 }

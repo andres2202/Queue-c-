@@ -3,6 +3,10 @@
 
 CMakeFiles/Queue_c__.dir/Node.cpp.obj: ../Node.cpp
 
+CMakeFiles/Queue_c__.dir/Queue.cpp.obj: ../Node.cpp
+CMakeFiles/Queue_c__.dir/Queue.cpp.obj: ../Queue.cpp
+
 CMakeFiles/Queue_c__.dir/main.cpp.obj: ../Node.cpp
+CMakeFiles/Queue_c__.dir/main.cpp.obj: ../Queue.cpp
 CMakeFiles/Queue_c__.dir/main.cpp.obj: ../main.cpp
 

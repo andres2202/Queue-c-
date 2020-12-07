@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/Queue-c-/Node.cpp
+C:/Users/andre/CLionProjects/Queue-c++/Node.cpp
 
-C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/Queue-c-/main.cpp
+C:/Users/andre/CLionProjects/Queue-c++/Queue.cpp
+Node.cpp
+C:/Users/andre/CLionProjects/Queue-c++/Node.cpp
+
+C:/Users/andre/CLionProjects/Queue-c++/main.cpp
 iostream
 -
-Node.cpp
-C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/Queue-c-/Node.cpp
+Queue.cpp
+C:/Users/andre/CLionProjects/Queue-c++/Queue.cpp
 conio.h
 -
 cstdlib
