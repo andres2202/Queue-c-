@@ -47,13 +47,23 @@ public:
         return NULL;
     }
 
+     bool exist(T data){
+        Node<T> *auxNode = head;
+        while (auxNode != NULL){
+            if (comparator->compare(auxNode->getData(),data) == 0){
+                return true;
+            }
+            auxNode = auxNode->getNext();
+        }
+        return false;
+    }
+
     string show(){
         string data = "->";
         Node<T> *aux = head;
         while (aux != NULL){
-//          data += to_string(aux->getData()) +"->";
-            data += aux->getData() +"->";
-            aux = aux->getNext();
+          data += to_string(aux->getData()) +"->";
+          aux = aux->getNext();
         }
         return data;
     }

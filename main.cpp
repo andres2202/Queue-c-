@@ -16,11 +16,6 @@ int main() {
     Node<int> *node1 = new Node<int>(2);
     node->setNext(node1);
     cout<<node1->getData()<<endl;
-    if (node1->getNext() == nullptr) {
-        cout<<"ok"<<endl;
-    } else {
-        cout<<"err"<<endl;
-    }
     cout<<"---------------"<<endl;
     Queue<int> *queue = new Queue<int>(new ComparatorQueue());
     cout<<queue->isEmpty()<<endl;
@@ -29,5 +24,10 @@ int main() {
     queue->push(5);
     cout<<queue->isEmpty()<<endl;
     cout<<queue->show()<<endl;
+    queue->poll();
+    cout<<queue->peek()<<endl;
+    cout<<queue->show()<<endl;
+    string result7 = queue->exist(4) == false? "false":"true";
+    cout<<result7<<endl;
     return 0;
 }
