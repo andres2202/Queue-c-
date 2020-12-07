@@ -1,7 +1,7 @@
 //
 // Created by Andrés Nausán and Sebastian Martinez on 7/12/2020
 
-template<class T> class Node{
+template<class T> struct Node{
     private:
         T data;
         Node<T> *next;
@@ -9,15 +9,37 @@ template<class T> class Node{
         Node(T data);
         T getData() const;
         void setData(T t);
-        Node *getNext() const;
+        Node *getNext() ;
         void setNext(Node *node);
+
+//    Node(T data) : data(data) {
+//
+//}
+//
+//    T getData()  {
+//        return data;
+//    }
+//
+//    void setData(T data) {
+//        Node::data = data;
+//    }
+//
+//    Node<T> *getNext() {
+//        return next;
+//    }
+//
+//    void setNext(Node<T> *next) {
+//        Node::next = next;
+//    }
 };
 
 template<class T>
-Node<T>::Node(T data) : data(data){}
+Node<T>::Node(T data) : data(data){
+    next = nullptr;
+}
 
 template<class T>
-Node<T> *Node<T>::getNext() const {
+Node<T> *Node<T>::getNext()  {
     return next;
 }
 

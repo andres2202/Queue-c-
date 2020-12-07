@@ -1,5 +1,6 @@
 #include <clocale>
 #include <string>
+#include <iostream>
 #include "Node.cpp"
 using namespace std;
 
@@ -29,14 +30,14 @@ public:
         return (head == NULL);
     }
 
-//    string show(){
-//        string data = "init-";
-//        Node<T> *aux = head;
-//        while (*aux != NULL){
-//            data += aux->getData();
-//            aux = aux->getNext();
-//        }
-//        return data;
-//    }
+    string show(){
+        string data = "->";
+        Node<T> *aux = head;
+        while (aux != NULL){
+            data += to_string(aux->getData()) +"->";
+            aux = aux->getNext();
+        }
+        return data;
+    }
 };
 
