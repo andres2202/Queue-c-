@@ -3,14 +3,14 @@
 
 template<class T> class Node{
     private:
-    T data;
-    Node<T> *next;
-public:
-    Node(T data);
-    T getData() const;
-    void setData(T t);
-    Node *getNext() const;
-    void setNext(Node *node);
+        T data;
+        Node<T> *next;
+    public:
+        Node(T data);
+        T getData() const;
+        void setData(T t);
+        Node *getNext() const;
+        void setNext(Node *node);
 };
 
 template<class T>

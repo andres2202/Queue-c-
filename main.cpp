@@ -8,8 +8,10 @@ int main() {
     Node<int> *node1 = new Node<int>(2);
     node->setNext(node1);
     cout<<node1->getData()<<endl;
+    cout<<"---------------"<<endl;
     Queue<int> *queue = new Queue<int>();
     cout<<queue->isEmpty()<<endl;
     queue->push(7);
+    cout<<queue->isEmpty()<<endl;
     return 0;
 }
