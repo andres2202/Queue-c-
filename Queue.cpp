@@ -15,16 +15,17 @@ public:
         if (head == nullptr){
             head = new Node<T>(data);
         }else{
-            Node<T> aux = head;
-            while (aux.getNext() != nullptr){
-                aux = aux.getNext();
+            Node<T> *aux = head;
+            while (aux->getNext() != nullptr){
+                aux = aux->getNext();
             }
-            aux.setNext(new Node<T>(data));
+            aux->setNext(new Node<T>(data));
         }
     }
 
     bool isEmpty(){
         return head == nullptr;
     }
+
 };
 
