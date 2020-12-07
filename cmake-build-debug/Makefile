@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\Queue-c-"
+CMAKE_SOURCE_DIR = C:\Users\andre\CLionProjects\Queue-c-
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\Queue-c-\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\Queue-c-\cmake-build-debug\CMakeFiles" "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\Queue-c-\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\Queue-c-\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

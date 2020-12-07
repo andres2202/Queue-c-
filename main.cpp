@@ -13,5 +13,6 @@ int main() {
     cout<<queue->isEmpty()<<endl;
     queue->push(7);
     cout<<queue->isEmpty()<<endl;
+//    cout<<queue->show()<<endl;
     return 0;
 }
