@@ -63,10 +63,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\andre\CLionProjects\Queue-c-
+CMAKE_SOURCE_DIR = "C:\Users\SEBASTIAN MARTINEZ\Downloads\Queue-c-"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\SEBASTIAN MARTINEZ\Downloads\Queue-c-\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/Queue_c__.dir/clean
 CMakeFiles/Queue_c__.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_c__.dir\build.make CMakeFiles/Queue_c__.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_c__.dir\build.make CMakeFiles/Queue_c__.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target Queue_c__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\SEBASTIAN MARTINEZ\Downloads\Queue-c-\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5 "Built target Queue_c__"
 .PHONY : CMakeFiles/Queue_c__.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Queue_c__.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\SEBASTIAN MARTINEZ\Downloads\Queue-c-\cmake-build-debug\CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Queue_c__.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\SEBASTIAN MARTINEZ\Downloads\Queue-c-\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/Queue_c__.dir/rule
 
 # Convenience name for target.

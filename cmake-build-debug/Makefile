@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\andre\CLionProjects\Queue-c-
+CMAKE_SOURCE_DIR = "C:\Users\SEBASTIAN MARTINEZ\Downloads\Queue-c-"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\SEBASTIAN MARTINEZ\Downloads\Queue-c-\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\SEBASTIAN MARTINEZ\Downloads\Queue-c-\cmake-build-debug\CMakeFiles" "C:\Users\SEBASTIAN MARTINEZ\Downloads\Queue-c-\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\SEBASTIAN MARTINEZ\Downloads\Queue-c-\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -141,6 +141,33 @@ Queue_c__: cmake_check_build_system
 Queue_c__/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_c__.dir\build.make CMakeFiles/Queue_c__.dir/build
 .PHONY : Queue_c__/fast
+
+Comparator.obj: Comparator.cpp.obj
+
+.PHONY : Comparator.obj
+
+# target to build an object file
+Comparator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_c__.dir\build.make CMakeFiles/Queue_c__.dir/Comparator.cpp.obj
+.PHONY : Comparator.cpp.obj
+
+Comparator.i: Comparator.cpp.i
+
+.PHONY : Comparator.i
+
+# target to preprocess a source file
+Comparator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_c__.dir\build.make CMakeFiles/Queue_c__.dir/Comparator.cpp.i
+.PHONY : Comparator.cpp.i
+
+Comparator.s: Comparator.cpp.s
+
+.PHONY : Comparator.s
+
+# target to generate assembly for a file
+Comparator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_c__.dir\build.make CMakeFiles/Queue_c__.dir/Comparator.cpp.s
+.PHONY : Comparator.cpp.s
 
 Node.obj: Node.cpp.obj
 
@@ -232,6 +259,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Queue_c__
+	@echo ... Comparator.obj
+	@echo ... Comparator.i
+	@echo ... Comparator.s
 	@echo ... Node.obj
 	@echo ... Node.i
 	@echo ... Node.s

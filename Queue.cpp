@@ -2,17 +2,17 @@
 #include <string>
 #include <iostream>
 #include "Node.cpp"
+#include "Comparator.cpp"
 using namespace std;
 
-// Created by Andrés Nausán on 7/12/2020.
-//
 template<class T> class Queue{
 private:
     Node<T> *head;
-
+    Comparator<T> *comparator;
 public:
-    Queue() {
+    Queue(Comparator<T> *comparator1) {
         this->head = NULL;
+        this->comparator = comparator1;
     }
 
     void push(T data){
@@ -57,5 +57,6 @@ public:
         }
         return data;
     }
+
 };
 

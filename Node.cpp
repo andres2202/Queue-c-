@@ -11,26 +11,6 @@ template<class T> struct Node{
         void setData(T t);
         Node *getNext() ;
         void setNext(Node *node);
-
-//    Node(T data) : data(data) {
-//
-//}
-//
-//    T getData()  {
-//        return data;
-//    }
-//
-//    void setData(T data) {
-//        Node::data = data;
-//    }
-//
-//    Node<T> *getNext() {
-//        return next;
-//    }
-//
-//    void setNext(Node<T> *next) {
-//        Node::next = next;
-//    }
 };
 
 template<class T>

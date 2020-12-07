@@ -3,4 +3,4 @@ project(Queue_c__)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Queue_c__ main.cpp Node.cpp Queue.cpp)
+add_executable(Queue_c__ main.cpp Node.cpp Queue.cpp Comparator.cpp)
