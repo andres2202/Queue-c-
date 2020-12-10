@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\andre\CLionProjects\Queue-c-
+CMAKE_SOURCE_DIR = "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Queue_c__.dir/depend.make
@@ -78,62 +78,76 @@ include CMakeFiles/Queue_c__.dir/flags.make
 
 CMakeFiles/Queue_c__.dir/main.cpp.obj: CMakeFiles/Queue_c__.dir/flags.make
 CMakeFiles/Queue_c__.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Queue_c__.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Queue_c__.dir\main.cpp.obj -c C:\Users\andre\CLionProjects\Queue-c-\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Queue_c__.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Queue_c__.dir\main.cpp.obj -c "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\main.cpp"
 
 CMakeFiles/Queue_c__.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue_c__.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\CLionProjects\Queue-c-\main.cpp > CMakeFiles\Queue_c__.dir\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\main.cpp" > CMakeFiles\Queue_c__.dir\main.cpp.i
 
 CMakeFiles/Queue_c__.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue_c__.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andre\CLionProjects\Queue-c-\main.cpp -o CMakeFiles\Queue_c__.dir\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\main.cpp" -o CMakeFiles\Queue_c__.dir\main.cpp.s
 
 CMakeFiles/Queue_c__.dir/Node.cpp.obj: CMakeFiles/Queue_c__.dir/flags.make
 CMakeFiles/Queue_c__.dir/Node.cpp.obj: ../Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Queue_c__.dir/Node.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Queue_c__.dir\Node.cpp.obj -c C:\Users\andre\CLionProjects\Queue-c-\Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Queue_c__.dir/Node.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Queue_c__.dir\Node.cpp.obj -c "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\Node.cpp"
 
 CMakeFiles/Queue_c__.dir/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue_c__.dir/Node.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\CLionProjects\Queue-c-\Node.cpp > CMakeFiles\Queue_c__.dir\Node.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\Node.cpp" > CMakeFiles\Queue_c__.dir\Node.cpp.i
 
 CMakeFiles/Queue_c__.dir/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue_c__.dir/Node.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andre\CLionProjects\Queue-c-\Node.cpp -o CMakeFiles\Queue_c__.dir\Node.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\Node.cpp" -o CMakeFiles\Queue_c__.dir\Node.cpp.s
 
 CMakeFiles/Queue_c__.dir/Queue.cpp.obj: CMakeFiles/Queue_c__.dir/flags.make
 CMakeFiles/Queue_c__.dir/Queue.cpp.obj: ../Queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Queue_c__.dir/Queue.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Queue_c__.dir\Queue.cpp.obj -c C:\Users\andre\CLionProjects\Queue-c-\Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Queue_c__.dir/Queue.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Queue_c__.dir\Queue.cpp.obj -c "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\Queue.cpp"
 
 CMakeFiles/Queue_c__.dir/Queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue_c__.dir/Queue.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\CLionProjects\Queue-c-\Queue.cpp > CMakeFiles\Queue_c__.dir\Queue.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\Queue.cpp" > CMakeFiles\Queue_c__.dir\Queue.cpp.i
 
 CMakeFiles/Queue_c__.dir/Queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue_c__.dir/Queue.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andre\CLionProjects\Queue-c-\Queue.cpp -o CMakeFiles\Queue_c__.dir\Queue.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\Queue.cpp" -o CMakeFiles\Queue_c__.dir\Queue.cpp.s
 
 CMakeFiles/Queue_c__.dir/Comparator.cpp.obj: CMakeFiles/Queue_c__.dir/flags.make
 CMakeFiles/Queue_c__.dir/Comparator.cpp.obj: ../Comparator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Queue_c__.dir/Comparator.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Queue_c__.dir\Comparator.cpp.obj -c C:\Users\andre\CLionProjects\Queue-c-\Comparator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Queue_c__.dir/Comparator.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Queue_c__.dir\Comparator.cpp.obj -c "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\Comparator.cpp"
 
 CMakeFiles/Queue_c__.dir/Comparator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue_c__.dir/Comparator.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\CLionProjects\Queue-c-\Comparator.cpp > CMakeFiles\Queue_c__.dir\Comparator.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\Comparator.cpp" > CMakeFiles\Queue_c__.dir\Comparator.cpp.i
 
 CMakeFiles/Queue_c__.dir/Comparator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue_c__.dir/Comparator.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\andre\CLionProjects\Queue-c-\Comparator.cpp -o CMakeFiles\Queue_c__.dir\Comparator.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\Comparator.cpp" -o CMakeFiles\Queue_c__.dir\Comparator.cpp.s
+
+CMakeFiles/Queue_c__.dir/Person.cpp.obj: CMakeFiles/Queue_c__.dir/flags.make
+CMakeFiles/Queue_c__.dir/Person.cpp.obj: ../Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Queue_c__.dir/Person.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Queue_c__.dir\Person.cpp.obj -c "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\Person.cpp"
+
+CMakeFiles/Queue_c__.dir/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue_c__.dir/Person.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\Person.cpp" > CMakeFiles\Queue_c__.dir\Person.cpp.i
+
+CMakeFiles/Queue_c__.dir/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue_c__.dir/Person.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\Person.cpp" -o CMakeFiles\Queue_c__.dir\Person.cpp.s
 
 # Object files for target Queue_c__
 Queue_c___OBJECTS = \
 "CMakeFiles/Queue_c__.dir/main.cpp.obj" \
 "CMakeFiles/Queue_c__.dir/Node.cpp.obj" \
 "CMakeFiles/Queue_c__.dir/Queue.cpp.obj" \
-"CMakeFiles/Queue_c__.dir/Comparator.cpp.obj"
+"CMakeFiles/Queue_c__.dir/Comparator.cpp.obj" \
+"CMakeFiles/Queue_c__.dir/Person.cpp.obj"
 
 # External object files for target Queue_c__
 Queue_c___EXTERNAL_OBJECTS =
@@ -142,11 +156,12 @@ Queue_c__.exe: CMakeFiles/Queue_c__.dir/main.cpp.obj
 Queue_c__.exe: CMakeFiles/Queue_c__.dir/Node.cpp.obj
 Queue_c__.exe: CMakeFiles/Queue_c__.dir/Queue.cpp.obj
 Queue_c__.exe: CMakeFiles/Queue_c__.dir/Comparator.cpp.obj
+Queue_c__.exe: CMakeFiles/Queue_c__.dir/Person.cpp.obj
 Queue_c__.exe: CMakeFiles/Queue_c__.dir/build.make
 Queue_c__.exe: CMakeFiles/Queue_c__.dir/linklibs.rsp
 Queue_c__.exe: CMakeFiles/Queue_c__.dir/objects1.rsp
 Queue_c__.exe: CMakeFiles/Queue_c__.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Queue_c__.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Queue_c__.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Queue_c__.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -159,6 +174,6 @@ CMakeFiles/Queue_c__.dir/clean:
 .PHONY : CMakeFiles/Queue_c__.dir/clean
 
 CMakeFiles/Queue_c__.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\andre\CLionProjects\Queue-c- C:\Users\andre\CLionProjects\Queue-c- C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles\Queue_c__.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++" "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++" "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug" "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug" "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug\CMakeFiles\Queue_c__.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Queue_c__.dir/depend
 

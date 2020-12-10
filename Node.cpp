@@ -1,12 +1,12 @@
 //
 // Created by Andrés Nausán and Sebastian Martinez on 7/12/2020
 
-template<class T> struct Node{
+template<class T> class Node{
     private:
         T data;
         Node<T> *next;
     public:
-        Node(T data);
+        explicit Node(T data);
         T getData() const;
         void setData(T t);
         Node *getNext() ;

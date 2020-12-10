@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\andre\CLionProjects\Queue-c-
+CMAKE_SOURCE_DIR = "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug\CMakeFiles" "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\CLionProjects\Queue-c-\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\SEBASTIAN MARTINEZ\Desktop\Archivos Felipe\Programacion 3\QueueC++\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -196,6 +196,33 @@ Node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_c__.dir\build.make CMakeFiles/Queue_c__.dir/Node.cpp.s
 .PHONY : Node.cpp.s
 
+Person.obj: Person.cpp.obj
+
+.PHONY : Person.obj
+
+# target to build an object file
+Person.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_c__.dir\build.make CMakeFiles/Queue_c__.dir/Person.cpp.obj
+.PHONY : Person.cpp.obj
+
+Person.i: Person.cpp.i
+
+.PHONY : Person.i
+
+# target to preprocess a source file
+Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_c__.dir\build.make CMakeFiles/Queue_c__.dir/Person.cpp.i
+.PHONY : Person.cpp.i
+
+Person.s: Person.cpp.s
+
+.PHONY : Person.s
+
+# target to generate assembly for a file
+Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_c__.dir\build.make CMakeFiles/Queue_c__.dir/Person.cpp.s
+.PHONY : Person.cpp.s
+
 Queue.obj: Queue.cpp.obj
 
 .PHONY : Queue.obj
@@ -265,6 +292,9 @@ help:
 	@echo ... Node.obj
 	@echo ... Node.i
 	@echo ... Node.s
+	@echo ... Person.obj
+	@echo ... Person.i
+	@echo ... Person.s
 	@echo ... Queue.obj
 	@echo ... Queue.i
 	@echo ... Queue.s

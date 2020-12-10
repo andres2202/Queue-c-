@@ -1,3 +1,3 @@
-C:/Users/andre/CLionProjects/Queue-c-/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/andre/CLionProjects/Queue-c-/cmake-build-debug/CMakeFiles/Queue_c__.dir
-C:/Users/andre/CLionProjects/Queue-c-/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/cmake-build-debug/CMakeFiles/Queue_c__.dir
+C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
