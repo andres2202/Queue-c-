@@ -1,5 +1,5 @@
 //
-// Created by SEBASTIAN MARTINEZ and Sebastian Martinez on 7/12/2020.
+// Created by SEBASTIAN MARTINEZ on 7/12/2020.
 //
 template<class T> class Comparator{
     public:

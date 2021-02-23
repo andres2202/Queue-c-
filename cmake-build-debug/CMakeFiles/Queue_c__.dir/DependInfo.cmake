@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/Comparator.cpp" "C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/cmake-build-debug/CMakeFiles/Queue_c__.dir/Comparator.cpp.obj"
-  "C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/Node.cpp" "C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/cmake-build-debug/CMakeFiles/Queue_c__.dir/Node.cpp.obj"
-  "C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/Person.cpp" "C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/cmake-build-debug/CMakeFiles/Queue_c__.dir/Person.cpp.obj"
-  "C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/Queue.cpp" "C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/cmake-build-debug/CMakeFiles/Queue_c__.dir/Queue.cpp.obj"
-  "C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/main.cpp" "C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/cmake-build-debug/CMakeFiles/Queue_c__.dir/main.cpp.obj"
+  "C:/Users/andre/CLionProjects/Queue-c-/Comparator.cpp" "C:/Users/andre/CLionProjects/Queue-c-/cmake-build-debug/CMakeFiles/Queue_c__.dir/Comparator.cpp.obj"
+  "C:/Users/andre/CLionProjects/Queue-c-/Node.cpp" "C:/Users/andre/CLionProjects/Queue-c-/cmake-build-debug/CMakeFiles/Queue_c__.dir/Node.cpp.obj"
+  "C:/Users/andre/CLionProjects/Queue-c-/Queue.cpp" "C:/Users/andre/CLionProjects/Queue-c-/cmake-build-debug/CMakeFiles/Queue_c__.dir/Queue.cpp.obj"
+  "C:/Users/andre/CLionProjects/Queue-c-/main.cpp" "C:/Users/andre/CLionProjects/Queue-c-/cmake-build-debug/CMakeFiles/Queue_c__.dir/main.cpp.obj"
+  "C:/Users/andre/CLionProjects/Queue-c-/p.cpp" "C:/Users/andre/CLionProjects/Queue-c-/cmake-build-debug/CMakeFiles/Queue_c__.dir/p.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

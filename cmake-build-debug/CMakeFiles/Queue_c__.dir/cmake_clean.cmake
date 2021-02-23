@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Queue_c__.dir/Comparator.cpp.obj"
   "CMakeFiles/Queue_c__.dir/Node.cpp.obj"
-  "CMakeFiles/Queue_c__.dir/Person.cpp.obj"
   "CMakeFiles/Queue_c__.dir/Queue.cpp.obj"
   "CMakeFiles/Queue_c__.dir/main.cpp.obj"
+  "CMakeFiles/Queue_c__.dir/p.cpp.obj"
   "Queue_c__.exe"
   "Queue_c__.exe.manifest"
   "Queue_c__.pdb"

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++
+# Install script for directory: C:/Users/andre/CLionProjects/Queue-c-
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/SEBASTIAN MARTINEZ/Desktop/Archivos Felipe/Programacion 3/QueueC++/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/andre/CLionProjects/Queue-c-/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

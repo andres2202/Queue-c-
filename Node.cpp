@@ -6,7 +6,7 @@ template<class T> class Node{
         T data;
         Node<T> *next;
     public:
-        explicit Node(T data);
+        Node(T data);
         T getData() const;
         void setData(T t);
         Node *getNext() ;
